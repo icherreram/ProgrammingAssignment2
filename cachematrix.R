@@ -1,4 +1,4 @@
-## Matrix inversion is usually a costly computation,
+## Matrix inversion is usually a costly computation 
 ##and there may be some benefit to caching 
 ##the inverse of a matrix rather than compute it repeatedly.
 ## The next two functions are used to cache the inverse of a matrix
@@ -59,3 +59,4 @@ m = makeCacheMatrix(x)
 m$get()
 cacheSolve(m)
 cacheSolve(m)
+
